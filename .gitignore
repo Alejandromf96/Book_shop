@@ -1,0 +1,17 @@
+# Archivos de entorno virtual
+venv/
+__pycache__/
+
+# Archivos de configuración sensible
+*.env
+instance/
+config.py
+
+# Archivos de bases de datos locales
+*.sqlite3
+site.db
+
+# Archivos de caché y logs
+*.log
+.DS_Store
+*.pyc
