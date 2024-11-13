@@ -1,6 +1,6 @@
 {% extends 'layout.html' %}
 {% block content %}
-<h1>Carrito de Compras</h1>
+<h1>Cart</h1>
 {% if items %}
     <ul>
         {% for item in items %}
@@ -16,9 +16,9 @@
             </li>
         {% endfor %}
     </ul>
-    <h3>Total del Carrito: ${{ total }}</h3>
+    <h3>Total Price: ${{ total }}</h3>
 {% else %}
-    <p>El carrito está vacío.</p>
+    <p>The cart is empty.</p>
 {% endif %}
-<a href="{{ url_for('index') }}">Continuar Comprando</a>
+<a href="{{ url_for('index') }}">Continue shopping</a>
 {% endblock %}

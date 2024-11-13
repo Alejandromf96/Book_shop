@@ -1,6 +1,6 @@
 {% extends 'layout.html' %}
 {% block content %}
-<h1>Libros Disponibles</h1>
+<h1>Books available</h1>
 <div class="product-grid">
     {% for book in books %}
     <div class="product-card">
@@ -8,7 +8,7 @@
         <p><strong>{{ book.title }}</strong> por {{ book.author }}</p>
         <p>Precio: ${{ book.price }}</p>
         <form action="{{ url_for('add_to_cart', book_id=book.id) }}" method="post">
-            <button type="submit">Añadir al carrito</button>
+            <button type="submit">Add to cart</button>
         </form>
     </div>
     {% endfor %}

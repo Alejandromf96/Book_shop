@@ -1,6 +1,6 @@
 {% extends 'layout.html' %}
 {% block content %}
-<h1>403 - Acceso Prohibido</h1>
-<p>No tienes permiso para acceder a esta página.</p>
-<a href="{{ url_for('index') }}">Volver a la página principal</a>
+<h1>403 - unauthorized access</h1>
+<p>Your not allowed to access this page.</p>
+<a href="{{ url_for('index') }}">Return</a>
 {% endblock %}
