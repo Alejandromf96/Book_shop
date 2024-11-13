@@ -14,15 +14,6 @@
 
 A web application for purchasing and managing a collection of books built with Flask. This project is designed to mimic a basic e-commerce store, allowing users to browse and search for books, add them to their cart, and manage purchases. Administrators have the ability to add new books to the store’s catalog.
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [Future Improvements](#future-improvements)
-
 ## Features
 
 - **User Authentication**: Users can register, log in, and log out securely.
